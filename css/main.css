@@ -30,3 +30,82 @@ main {
     margin: 0 auto;
     width: 1000px;
 }
+
+.card {
+    margin: 25px 0;
+    overflow: auto;
+}
+
+.image {
+    float: left;
+    height: 550px;
+    width: 500px;
+}
+
+.recipe {
+    background: #ffffff;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+    height: 550px;
+    width: 500px;
+}
+
+#cookies .image {
+    background: url('../img/gluten-free-sugar-cookies.jpg');
+    background-size: cover;
+}
+
+#pesto .image {
+    background: url('../img/nut-free-pesto.jpg');
+    background-size: cover;
+}
+
+#salad .image {
+    background: url('../img/watermelon-salad.jpg');
+    background-size: cover;
+}
+
+.recipe h2 {
+    color: #f16059;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height: 29px;
+}
+
+.time {
+    margin-bottom: 20px;
+    border: 1px solid #3b3b3b;
+    overflow: auto;
+}
+
+.time div {
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.time img {
+    height: auto;
+    width: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.time .cook {
+    border-left: 1px solid #3b3b3b;
+    border-right: 1px solid #3b3b3b;
+}
+
+.time-details {
+    display: inline-block;
+}
+
+.time strong {
+    font-family: 'Montserrat', sans-serif;
+}
